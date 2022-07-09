@@ -1,3 +1,55 @@
 #logo {
-    color: blue;
+  color:white;
+  text-decoration: none;
+  margin-left: 10px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3c3a39;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: white;
+}
+
+#welcome {
+  background-color: #1c1a19;
+  background-image: url("images/illustration-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 100%,100%;
+  height: 100vh;
+  
+}
+
+#welcome h1 {
+  color: #ff6b00;
+}
+#welcome h2 {
+ color: #fff5e1;
+}
+#welcome p {
+  color:#fff5e1;
+}
+.social-media {  
+   list-style: none;
+   color: white;
+
+}
+.social-media li {
+  display:inline-block;
+}
+
+.social-media li a {
+  color:white;
+  margin:2px;
+}
+
